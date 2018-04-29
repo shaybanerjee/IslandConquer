@@ -241,19 +241,34 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\AIAttacking.cs" />
+    <Compile Include="Assets\Scripts\AIController.cs" />
+    <Compile Include="Assets\Scripts\AIGraphic.cs" />
+    <Compile Include="Assets\Scripts\AISetup.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MatchConfig.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\WeaponManager.cs" />
+    <Compile Include="Assets\Scripts\WepGraphics.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
